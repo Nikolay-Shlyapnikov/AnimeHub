@@ -9,7 +9,12 @@
   height: 300px;
   object-fit: cover;
 }
-
+.catalog__item{
+  color: #000;
+}
+.catalog__item:hover{
+  color: #000;
+}
 .catalog__item-wrapper {
   display: flex;
   justify-content: space-between;
