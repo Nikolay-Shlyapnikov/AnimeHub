@@ -1,0 +1,90 @@
+.sidebar {
+  display: flex;
+  justify-content: center;
+}
+
+.profile__wrapper {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+  position: sticky;
+  top: 90px;
+}
+
+.profile__avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 1px solid #9b0000;
+  object-fit: cover;
+}
+
+.static {
+  font-size: 20px;
+}
+
+.static:not(:first-child) {
+  margin-top: 25px;
+}
+
+.static div {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.profile__button {
+  background-color: #9b0000;
+  border: none;
+  color: #FFF !important;
+  text-align: center;
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: 1px solid #9b0000;
+  font-size: 20px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.profile__button:active,
+.profile__button:focus,
+.profile__button {
+  outline: none;
+}
+
+.profile__button:hover {
+  border: 1px solid #9b0000;
+  color: black !important;
+  background-color: #FFF;
+}
+
+.favourite__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.catalog__item-wrapper {
+  justify-content: space-evenly;
+}
+
+.reviews__number {
+  font-size: 30px;
+  color: #9b0000;
+}
+
+.reviews__name {
+  font-size: 25px;
+}
+
+.reviews__text {
+  font-size: 20px;
+}
+
+.reviews__item:not(:first-child) {
+  border-top: 1px solid #9b0000;
+}
